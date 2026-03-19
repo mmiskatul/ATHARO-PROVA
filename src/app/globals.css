@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f4ed;
+  --foreground: #1f2933;
+  --card: #fffdf9;
+  --card-foreground: #1f2933;
+  --muted: #efe7dc;
+  --muted-foreground: #556371;
+  --primary: #b46a2d;
+  --primary-foreground: #fffaf4;
+  --secondary: #135d66;
+  --secondary-foreground: #f3fbfc;
+  --accent: #f2c572;
+  --accent-foreground: #513013;
+  --destructive: #b42318;
+  --destructive-foreground: #fff5f3;
+  --border: #ded3c3;
+  --input: #ede5d9;
+  --ring: #d78545;
+  --chart-1: #b46a2d;
+  --chart-2: #135d66;
+  --chart-3: #8fbc8f;
+  --chart-4: #f2c572;
+  --chart-5: #8d4f1f;
+  --sidebar: #fff8ef;
+  --sidebar-foreground: #1f2933;
+  --sidebar-primary: #135d66;
+  --sidebar-primary-foreground: #f4feff;
+  --sidebar-accent: #efe7dc;
+  --sidebar-accent-foreground: #234047;
+  --sidebar-border: #ded3c3;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --font-sans: var(--font-manrope);
+  --font-bangla: var(--font-hind-siliguri);
+}
+
+* {
+  @apply border-border;
+}
+
+body {
+  @apply bg-background text-foreground;
+}
+
+a {
+  @apply transition-colors;
+}
+
+.bangla {
+  font-family: var(--font-hind-siliguri), sans-serif;
+}
+
+.content-grid {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.surface {
+  @apply rounded-3xl border border-border/80 bg-card shadow-[0_24px_80px_-48px_rgba(31,41,51,0.55)];
+}
+
+.section-spacing {
+  @apply py-16 sm:py-20 lg:py-24;
+}
+
+.hero-gradient {
+  background:
+    radial-gradient(circle at top left, rgba(242, 197, 114, 0.5), transparent 35%),
+    radial-gradient(circle at top right, rgba(19, 93, 102, 0.18), transparent 28%),
+    linear-gradient(180deg, #fff8ef 0%, #f8f4ed 100%);
+}
+
+.data-grid {
+  @apply grid gap-4 md:grid-cols-2 xl:grid-cols-4;
+}
+
+body {
+  min-height: 100vh;
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
