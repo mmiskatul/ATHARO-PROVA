@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "siteName": "ATHARO PROVA"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "campaigns": "Campaigns",
+    "donate": "Donate",
+    "impact": "Impact",
+    "news": "News",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "login": "Login",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "logout": "Logout"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "search": "Search",
+    "loading": "Loading...",
+    "empty": "No records available.",
+    "anonymous": "Anonymous",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "verified": "Verified",
+    "currency": "BDT"
+  },
+  "home": {
+    "eyebrow": "Student-led impact from the village outward",
+    "title": "Building trust-driven giving for communities that need it most.",
+    "description": "ATHARO PROVA helps students organize campaigns, verify donations manually, and show transparent impact in both English and Bangla.",
+    "ctaPrimary": "Donate now",
+    "ctaSecondary": "View campaigns"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "signInDescription": "Use your account to manage donations, receipts, and saved campaigns.",
+    "createAccount": "Create account",
+    "forgotPassword": "Forgot password?",
+    "resetPassword": "Reset password"
+  },
+  "footer": {
+    "tagline": "Students mobilizing verified generosity across Bangladesh."
+  }
+}
